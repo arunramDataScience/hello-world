@@ -18,7 +18,7 @@ def report(location):
     final_report={}
     for i in range(sheet.nrows):
         if i in [0,1]:
-            pass
+            print(i)
         else:
             calc=sheet.row_values(i)
             print(calc)
